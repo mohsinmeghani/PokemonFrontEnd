@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(139, 235, 206);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1{
+  text-align: center;
+}
+.cards{
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+}
+.detail-container{
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+.detail-container>div{
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.pokemon-detail{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.pokemon-detail .desc p{
+  font-size: larger;
+}
+
+.pokemon-detail .stats{
+  display: flex;
+  justify-content: space-between;
+  background-color: #30A7D7;
+  border-radius: 2rem;
+  padding: 1rem;
+}
+
+.c-color{
+  color: white;
+}
+.c-font{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.c-font2{
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+}
+
+.info>div{
+ display: flex;
+ justify-content: space-around
+}
+
+.c-radius{
+  background-color: #FD7D24;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.c-radius2{
+  background-color: #3DC7EF;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+.c-radius3{
+  background-color: #4592C4;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+.c-radius4{
+  background-color: #eed535;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  text-align: center;
+  cursor: pointer;
+
+}
+
+.c-radius5{
+  background-color: #A38C21;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  text-align: center;
+  cursor: pointer;
+
+}
